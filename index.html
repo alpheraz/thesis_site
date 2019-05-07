@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/mkr1mvi.css">
     <link rel="stylesheet" href="https://use.typekit.net/dmc2tjk.css">
 
-
+    
     <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
 
@@ -55,7 +55,12 @@
     </script>
 
 
-
+        <script>
+        document.write('<span id="date-time">', new Date().toLocaleString(), '<\/span>')
+        if (document.getElementById) onload = function() {
+            setInterval("document.getElementById ('date-time').firstChild.data = new Date().toLocaleString()", 50)
+        }
+    </script>
 
 
 
@@ -96,7 +101,8 @@
         </ul>
             
         </div>-->
-
+   
+   
     <div class="logo"></div>
     <div class="fixed_color" id="name">interface evolution </div>
 
@@ -147,6 +153,15 @@
                 </div>
             </div>
             
+            <h1 class="preface">Technology is constantly evolving 
+and while we may be used to what 
+use now, in the past decade technology 
+has developed so rapidly we forget 
+the innovation that has bloomed from 
+history. Whilst technology becomes more influential, it transforms our lives in new ways, creating users to become more dependent. This exploration 
+examines the archives of the past to 
+understand the present and what 
+can be built upon for the future. </h1>
               
         </div>
 
@@ -158,23 +173,28 @@
                 <div class="intro">
                     <div class="fp-controlArrow fp-next"></div>
                     <h1 class="intro-header">patents </h1>
-                    
+                
+
                     <div class="slide" data-anchor="slide1">
-                     <h3>Physical</h3>
-                    <img id="patent" src="imgs/Screen%20Shot%202019-01-30%20at%202.42.30%20AM.png">
+                     <h3><i>Physical</i></h3>
+                  <div class="row"> 
+  <div class="column">
+                      <img id="patent" src="imgs/Screen%20Shot%202019-01-30%20at%202.42.30%20AM.png">
                      <img id="patent" src="imgs/Screen%20Shot%202019-01-30%20at%202.43.17%20AM.png">
+                      </div>
+                        </div>
                     </div>
                 </div>
 
 
                 <div class="slide" data-anchor="slide2">
-            <h3>Behavior   </h3>
+            <h3><i>Behavior  </i> </h3>
                <img id="patent" src="imgs/Screen%20Shot%202019-01-30%20at%202.44.40%20AM.png">
                      <img id="patent" src="imgs/Screen%20Shot%202019-01-30%20at%202.43.32%20AM.png">
                 </div>
                 
                      <div class="slide" data-anchor="slide3">
-            <h3> Political </h3>
+            <h3><i> Political </i> </h3>
                 <img id="patent" src="imgs/Screen%20Shot%202019-01-30%20at%203.04.49%20AM.png">
                      <img id="patent" src="imgs/Screen%20Shot%202019-01-30%20at%204.00.06%20AM.png">
                 </div>
@@ -182,12 +202,12 @@
                 
                   <div class="slide" data-anchor="slide4">
                   
-            <h3>Unconscious</h3>
+                      <h3><i>Unconscious</i></h3>
                 </div>
                 
                 <div class="slide" data-anchor="slide5">
                   
-                <h3>Mechanical </h3>
+                <h3><i>Mechanical</i> </h3>
             </div>
         
         </div>

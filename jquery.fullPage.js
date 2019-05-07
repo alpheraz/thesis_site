@@ -125,9 +125,9 @@
             //scrolling
             css3: true,
             scrollingSpeed: 1600,
-            autoScrolling: true,
+            autoScrolling: false,
             fitToSection: true,
-            fitToSectionDelay: 300,
+            fitToSectionDelay: 100,
             easing: 'easeInOutCubic',
             easingcss3: 'ease',
             loopBottom: false,
@@ -152,7 +152,7 @@
 
             //Accessibility
             keyboardScrolling: true,
-            animateAnchor: true,
+            animateAnchor: false,
             recordHistory: true,
 
             //design
